@@ -1,0 +1,53 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Clear List'
+  ClientHeight = 156
+  ClientWidth = 432
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object clearL: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    Text = 'This will clear all items of the list.'
+    TabOrder = 0
+  end
+  object cancel: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 80.000000000000000000
+    Position.Y = 89.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Cancel'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    OnClick = cancelClick
+  end
+  object okay: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 248.000000000000000000
+    Position.Y = 89.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Okay'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    OnClick = okayClick
+  end
+end
